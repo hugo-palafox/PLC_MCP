@@ -1,0 +1,232 @@
+2026-02-13 23:13:44,257 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-13 23:13:44,257 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-13 23:13:44,257 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 03:26:44,969 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 03:26:44,970 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 03:26:44,970 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 03:26:56,766 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 03:26:56,766 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 03:26:56,767 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 03:53:07,332 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:07,332 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:07,334 - plc-bridge - INFO - Listing all PLC tags for machine: Testing_Machine...
+2026-02-14 03:53:07,370 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:07,370 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:07,372 - plc-bridge - INFO - Batch reading 20 OEE tags for Testing_Machine...
+2026-02-14 03:53:07,374 - plc-bridge - ERROR - Error in batch read for Testing_Machine: ADSError: Target port not found - ADS Server not started (6). 
+2026-02-14 03:53:16,847 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 03:53:16,847 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 03:53:16,847 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 03:53:21,529 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:21,529 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:21,530 - plc-bridge - INFO - Listing all PLC tags for machine: Testing_Machine...
+2026-02-14 03:53:21,583 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:21,583 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:21,584 - plc-bridge - INFO - Batch reading 20 OEE tags for Testing_Machine...
+2026-02-14 03:53:21,588 - plc-bridge - ERROR - Error in batch read for Testing_Machine: ADSError: Target port not found - ADS Server not started (6). 
+2026-02-14 03:53:30,019 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:30,019 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:30,019 - plc-bridge - INFO - Listing all PLC tags for machine: Testing_Machine...
+2026-02-14 03:53:30,089 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 03:53:30,089 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 03:53:30,091 - plc-bridge - INFO - Batch reading 20 OEE tags for Testing_Machine...
+2026-02-14 03:53:30,093 - plc-bridge - ERROR - Error in batch read for Testing_Machine: ADSError: Target port not found - ADS Server not started (6). 
+2026-02-14 04:01:50,782 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:01:50,783 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:01:50,783 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:04:30,250 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:04:30,251 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:04:30,252 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:06:04,287 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:06:04,288 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:06:04,288 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 04:06:34,793 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:06:34,794 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:06:34,795 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:07:02,936 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:07:02,936 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:07:02,936 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:07:33,929 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:07:33,929 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:07:33,929 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:08:02,869 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:08:02,869 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:08:02,869 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:08:29,733 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:08:29,733 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:08:29,733 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:09:23,098 - plc-bridge - INFO - Starting PLC-Bridge MCP Server
+2026-02-14 04:09:23,098 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:09:23,098 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:12:34,302 - plc-bridge - INFO - Starting PLC-Bridge MCP Server (Low-Level)
+2026-02-14 04:12:34,303 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:12:34,303 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:12:47,838 - plc-bridge - INFO - Starting PLC-Bridge MCP Server (Low-Level)
+2026-02-14 04:12:47,838 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:12:47,839 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:26:05,836 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:26:05,836 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:26:05,837 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:26:33,546 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:26:33,547 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:26:33,547 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:28:57,465 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:28:57,466 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: )...
+2026-02-14 04:31:18,469 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:31:18,469 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:31:18,471 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:34:04,292 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:34:04,292 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:34:04,294 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:34:04,321 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 04:34:20,037 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:34:20,038 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:34:20,038 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:34:59,842 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:34:59,842 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-14 04:35:26,098 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:35:26,098 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-14 04:35:37,187 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:35:37,187 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-14 04:36:01,751 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:36:01,751 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-14 04:36:22,243 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:36:22,244 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-14 04:37:31,018 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 04:48:11,153 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:48:11,153 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:48:11,153 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:51:41,248 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:51:41,248 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:51:41,248 - plc-bridge - INFO - Mode: MOCK
+2026-02-14 04:52:26,795 - plc-bridge - INFO - Initializing MockDriver for Testing_Machine...
+2026-02-14 04:52:26,795 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: )...
+2026-02-14 04:53:56,523 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:53:56,523 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:53:56,523 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 04:54:04,842 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-14 04:54:04,844 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-14 04:54:04,845 - plc-bridge - INFO - Batch reading 20 OEE tags for Testing_Machine...
+2026-02-14 04:54:04,846 - plc-bridge.beckhoff - ERROR - Batch read failed: 'Connection' object has no attribute 'read_list'
+2026-02-14 04:54:31,821 - plc-bridge - WARNING - Config for machine '' not found at c:\Users\hugod\Documents\Projects\PLC_MCP\Core\plc_settings\.json
+2026-02-14 04:59:56,150 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 04:59:56,151 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 04:59:56,151 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 09:34:32,590 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 09:34:32,590 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 09:34:32,590 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 09:35:45,328 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 11:59:19,365 - plc-bridge - WARNING - Config for machine 'Global' not found at c:\Users\hugod\Documents\Projects\PLC_MCP\Core\plc_settings\Global.json
+2026-02-14 12:00:25,103 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 12:01:54,927 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 13:26:24,847 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 13:26:24,848 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 13:26:24,848 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 13:26:38,460 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 13:26:38,460 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 13:26:38,460 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 16:47:44,132 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 16:48:21,595 - plc-bridge - INFO - Generating dashboard for Testing_Machine...
+2026-02-14 21:37:20,830 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 21:37:20,832 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 21:37:20,832 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 21:38:05,670 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 21:38:05,671 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 21:38:05,672 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 23:25:59,985 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 23:25:59,985 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 23:25:59,985 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 23:26:06,839 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 23:26:06,839 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 23:26:06,839 - plc-bridge - INFO - Mode: LIVE
+2026-02-14 23:27:03,555 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-14 23:27:03,556 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-14 23:27:03,556 - plc-bridge - INFO - Mode: LIVE
+2026-02-15 11:43:47,893 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-15 11:43:47,894 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-15 11:43:47,894 - plc-bridge - INFO - Mode: LIVE
+2026-02-16 06:40:09,662 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-16 06:40:09,663 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-16 06:40:09,663 - plc-bridge - INFO - Mode: LIVE
+2026-02-16 08:17:11,802 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-16 08:17:11,803 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-16 08:17:11,803 - plc-bridge - INFO - Mode: LIVE
+2026-02-17 13:35:30,459 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-17 13:35:30,459 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-17 13:35:30,459 - plc-bridge - INFO - Mode: LIVE
+2026-02-17 13:35:31,706 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-17 13:35:31,706 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-17 13:35:31,706 - plc-bridge - INFO - Mode: LIVE
+2026-02-17 18:57:50,952 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-17 18:57:50,955 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-17 18:57:50,955 - plc-bridge - INFO - Mode: LIVE
+2026-02-17 20:23:03,094 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-17 20:23:03,094 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-17 20:23:03,094 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 05:07:06,262 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 05:07:06,263 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 05:07:06,263 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 05:17:37,134 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 05:17:37,134 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 05:17:37,134 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 05:18:07,400 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 05:18:07,400 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 05:18:07,401 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 07:16:12,978 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 07:16:12,978 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 07:16:12,978 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 09:55:15,521 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 09:55:15,522 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 09:55:15,522 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 10:47:59,824 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 10:47:59,824 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 10:47:59,824 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 10:57:21,435 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 10:57:21,435 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 10:57:21,435 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 10:57:25,550 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 10:57:25,550 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 10:57:25,550 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 10:58:58,870 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 10:58:58,870 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 10:58:58,870 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 11:01:51,783 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-18 11:01:51,783 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-18 11:01:51,785 - plc-bridge - INFO - Batch reading 21 OEE tags for Testing_Machine...
+2026-02-18 11:01:51,785 - plc-bridge.beckhoff - ERROR - Batch read failed: 'Connection' object has no attribute 'read_list'
+2026-02-18 11:04:23,256 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 11:04:23,256 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 11:04:23,256 - plc-bridge - INFO - Mode: LIVE
+2026-02-18 17:43:30,809 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-18 17:43:30,810 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-18 17:43:30,810 - plc-bridge - INFO - Mode: LIVE
+2026-02-19 09:52:46,168 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-19 09:52:46,168 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-19 09:52:46,168 - plc-bridge - INFO - Mode: LIVE
+2026-02-19 09:55:54,257 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-19 09:55:54,257 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-19 09:55:54,257 - plc-bridge - INFO - Mode: LIVE
+2026-02-19 10:06:01,931 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-19 10:06:01,931 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-19 10:06:01,932 - plc-bridge - INFO - Mode: LIVE
+2026-02-19 21:32:36,808 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-19 21:32:36,809 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-19 21:32:36,809 - plc-bridge - INFO - Mode: LIVE
+2026-02-19 21:32:48,350 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-19 21:32:48,350 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-19 21:32:48,350 - plc-bridge - INFO - Mode: LIVE
+2026-02-20 04:49:23,765 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-20 04:49:23,766 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-20 04:49:23,766 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-20 04:49:23,766 - plc-bridge - INFO - Mode: LIVE
+2026-02-20 04:49:23,766 - plc-bridge - INFO - Mode: LIVE
+2026-02-20 05:26:37,426 - plc-bridge - INFO - Beckhoff detected: Appending .1.1 suffix to 199.4.42.250 -> 199.4.42.250.1.1
+2026-02-20 05:26:37,426 - plc-bridge - INFO - Initializing TwinCATDriver for machine 'Testing_Machine' at 199.4.42.250.1.1...
+2026-02-20 05:26:37,431 - plc-bridge - INFO - Listing PLC tags for Testing_Machine (filter: None)...
+2026-02-20 05:26:37,432 - plc-bridge.beckhoff - INFO - Uploading symbols from PLC (this may take a moment for large projects)...
+2026-02-20 05:54:58,748 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-20 05:54:58,748 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-20 05:54:58,749 - plc-bridge - INFO - Mode: LIVE
+2026-02-20 09:20:59,495 - plc-bridge - INFO - Starting PLC-Bridge FastMCP Server
+2026-02-20 09:20:59,495 - plc-bridge - INFO - Active Machine: Testing_Machine
+2026-02-20 09:20:59,495 - plc-bridge - INFO - Mode: LIVE

@@ -1,0 +1,94 @@
+{
+    "MachineName": "Testing_Machine",
+    "Type": "Beckhoff",
+    "IP_Address": "199.4.42.250",
+    "Tags": {
+        "Global.bMachineRunning": {
+            "type": "BOOL",
+            "description": "Active Production"
+        },
+        "Global.bMachineInFault": {
+            "type": "BOOL",
+            "description": "E-Stop or Alarm Active"
+        },
+        "Global.bMachineInChangeover": {
+            "type": "BOOL",
+            "description": "Technician is swapping tooling"
+        },
+        "Global.nTotalPartsProduced": {
+            "type": "UDINT",
+            "description": "Raw count from sensor"
+        },
+        "Global.nGoodPartsProduced": {
+            "type": "UDINT",
+            "description": "Parts that passed inspection"
+        },
+        "Global.nRejectedParts": {
+            "type": "UDINT",
+            "description": "Scrapped parts"
+        },
+        "Global.fPlannedProdTime": {
+            "type": "REAL",
+            "description": "Scheduled shift time (minus breaks)"
+        },
+        "Global.fActualRunTime": {
+            "type": "REAL",
+            "description": "Time spent in 'Running' state"
+        },
+        "Global.fDownTimeUnplanned": {
+            "type": "REAL",
+            "description": "Time spent in 'Fault' state"
+        },
+        "Global.fDownTimePlanned": {
+            "type": "REAL",
+            "description": "Time spent in 'Changeover' or Maint"
+        },
+        "Global.fIdealCycleTime": {
+            "type": "REAL",
+            "description": "Theoretical top speed (sec/part)"
+        },
+        "Global.fCurrentCycleTime": {
+            "type": "REAL",
+            "description": "Actual time of last cycle"
+        },
+        "Global.fAverageThroughput": {
+            "type": "REAL",
+            "description": "Parts per hour (rolling average)"
+        },
+        "Global.fOEE_Availability": {
+            "type": "REAL",
+            "description": "OEE Availability calculation"
+        },
+        "Global.fOEE_Performance": {
+            "type": "REAL",
+            "description": "OEE Performance calculation"
+        },
+        "Global.fOEE_Quality": {
+            "type": "REAL",
+            "description": "OEE Quality calculation"
+        },
+        "Global.fOEE_Overall": {
+            "type": "REAL",
+            "description": "Overall Equipment Effectiveness"
+        },
+        "Global.nShiftTarget": {
+            "type": "UDINT",
+            "description": "Production target count"
+        },
+        "Global.fProductionAttainment": {
+            "type": "REAL",
+            "description": "Percentage of target met"
+        },
+        "Global.nRemainingToTarget": {
+            "type": "DINT",
+            "description": "Parts needed to reach target"
+        },
+        "Global.PartsPerHour": {
+            "type": "DINT",
+            "description": "Parts produced per hour (24-hour tracking)",
+            "is_array": true,
+            "array_size": 25,
+            "visualization": "chart"
+        }
+    }
+}

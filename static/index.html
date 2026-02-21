@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLC Dashboard - Interactive</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Dashboard Canvas Area -->
+        <div class="dashboard-canvas" id="dashboardCanvas">
+            <!-- Machine Selector -->
+            <div class="machine-selector">
+                <label for="machineSelect">Machine:</label>
+                <select id="machineSelect">
+                    <option value="Testing_Machine">Loading...</option>
+                </select>
+            </div>
+
+            <div class="welcome-message">
+                <h1>🏭 Industrial PLC Dashboard</h1>
+                <p>Ask me anything about your machine data below!</p>
+                <div class="suggestions">
+                    <button class="suggestion-btn" onclick="askQuestion('Show me all metrics')">Show all
+                        metrics</button>
+                    <button class="suggestion-btn" onclick="askQuestion('What is the OEE?')">What is the OEE?</button>
+                    <button class="suggestion-btn" onclick="askQuestion('Show production data')">Show production
+                        data</button>
+                </div>
+            </div>
+
+            <!-- Metrics will be dynamically added here -->
+            <div class="metrics-grid" id="metricsGrid"></div>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input-area">
+            <div class="connection-status" id="connectionStatus">
+                <span class="status-dot"></span>
+                <span id="statusText">Connecting...</span>
+            </div>
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Ask about machine data... (e.g., 'Show me OEE')"
+                    autocomplete="off" />
+                <button id="sendBtn" onclick="sendMessage()">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+            <div class="response-area" id="responseArea"></div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

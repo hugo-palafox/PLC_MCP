@@ -1,0 +1,509 @@
+{
+  "__inputs": [],
+  "annotations": {
+    "list": []
+  },
+  "description": "",
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "hideControls": false,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "description": "Gauge for Global.fOEE_Overall",
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "op": "gt",
+                "yaxis": "left",
+                "color": "green",
+                "line": true,
+                "index": 0,
+                "value": "null"
+              },
+              {
+                "op": "gt",
+                "yaxis": "left",
+                "color": "red",
+                "line": true,
+                "index": 1,
+                "value": 80.0
+              }
+            ]
+          },
+          "calcs": [
+            "mean"
+          ],
+          "decimals": null,
+          "max": 100,
+          "min": 0,
+          "title": null,
+          "unit": "none",
+          "links": [],
+          "limit": null,
+          "mappings": [],
+          "override": {},
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "height": null,
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 0,
+        "y": 0
+      },
+      "hideTimeOverride": false,
+      "id": 1,
+      "interval": null,
+      "links": [],
+      "maxDataPoints": 100,
+      "minSpan": null,
+      "repeat": null,
+      "repeatDirection": null,
+      "maxPerRow": null,
+      "span": null,
+      "targets": [
+        {
+          "expr": "Global.fOEE_Overall",
+          "query": "Global.fOEE_Overall",
+          "target": "",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "intervalFactor": 2,
+          "legendFormat": "",
+          "metric": "",
+          "refId": "",
+          "step": 10,
+          "instant": false,
+          "datasource": null
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Overall Equipment Effectiveness",
+      "transparent": false,
+      "transformations": [],
+      "type": "gauge"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "description": null,
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": ""
+          },
+          "color": null,
+          "custom": {},
+          "decimals": null,
+          "mappings": [],
+          "unit": "none",
+          "noValue": "none"
+        },
+        "overrides": []
+      },
+      "height": null,
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 8,
+        "y": 0
+      },
+      "hideTimeOverride": false,
+      "id": 2,
+      "interval": null,
+      "links": [],
+      "maxDataPoints": 100,
+      "minSpan": null,
+      "repeat": null,
+      "repeatDirection": null,
+      "maxPerRow": null,
+      "span": null,
+      "targets": [
+        {
+          "expr": "Global.nTotalPartsProduced",
+          "query": "Global.nTotalPartsProduced",
+          "target": "",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "intervalFactor": 2,
+          "legendFormat": "",
+          "metric": "",
+          "refId": "",
+          "step": 10,
+          "instant": false,
+          "datasource": null
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Total Parts Produced",
+      "transparent": false,
+      "transformations": [],
+      "options": {
+        "textMode": "auto",
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "mean"
+          ],
+          "fields": "",
+          "values": false
+        }
+      },
+      "type": "stat"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "description": null,
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": []
+          },
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "axisLabel": "",
+            "drawStyle": "line",
+            "lineInterpolation": "linear",
+            "barAlignment": 0,
+            "lineWidth": 1,
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "spanNulls": false,
+            "showPoints": "auto",
+            "pointSize": 5,
+            "stacking": {},
+            "scaleDistribution": {
+              "type": "linear",
+              "log": 2
+            },
+            "hideFrom": {
+              "tooltip": false,
+              "viz": false,
+              "legend": false
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            },
+            "axisSoftMin": null,
+            "axisSoftMax": null
+          },
+          "mappings": [],
+          "min": null,
+          "max": null,
+          "decimals": null,
+          "unit": ""
+        },
+        "overrides": []
+      },
+      "height": null,
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "hideTimeOverride": false,
+      "id": 3,
+      "interval": null,
+      "links": [],
+      "maxDataPoints": 100,
+      "minSpan": null,
+      "repeat": null,
+      "repeatDirection": null,
+      "maxPerRow": null,
+      "span": null,
+      "targets": [
+        {
+          "expr": "Global.nGoodPartsProduced",
+          "query": "Global.nGoodPartsProduced",
+          "target": "",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "intervalFactor": 2,
+          "legendFormat": "",
+          "metric": "",
+          "refId": "",
+          "step": 10,
+          "instant": false,
+          "datasource": null
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Good Parts Count",
+      "transparent": false,
+      "transformations": [],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "calcs": []
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "type": "timeseries"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "description": null,
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": []
+          },
+          "custom": {
+            "lineWidth": 0,
+            "fillOpacity": 70
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "height": null,
+      "gridPos": {
+        "h": 4,
+        "w": 12,
+        "x": 12,
+        "y": 8
+      },
+      "hideTimeOverride": false,
+      "id": 4,
+      "interval": null,
+      "links": [],
+      "maxDataPoints": 100,
+      "minSpan": null,
+      "repeat": null,
+      "repeatDirection": null,
+      "maxPerRow": null,
+      "span": null,
+      "targets": [
+        {
+          "expr": "Global.bMachineRunning",
+          "query": "Global.bMachineRunning",
+          "target": "",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "intervalFactor": 2,
+          "legendFormat": "",
+          "metric": "",
+          "refId": "",
+          "step": 10,
+          "instant": false,
+          "datasource": null
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Machine Running Status",
+      "transparent": false,
+      "transformations": [],
+      "options": {
+        "mergeValues": true,
+        "showValue": "auto",
+        "alignValue": "left",
+        "rowHeight": 0.9,
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single"
+        }
+      },
+      "type": "state-timeline"
+    },
+    {
+      "cacheTimeout": null,
+      "datasource": null,
+      "description": null,
+      "editable": true,
+      "error": false,
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": []
+          },
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "axisLabel": "",
+            "drawStyle": "line",
+            "lineInterpolation": "linear",
+            "barAlignment": 0,
+            "lineWidth": 1,
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "spanNulls": false,
+            "showPoints": "auto",
+            "pointSize": 5,
+            "stacking": {},
+            "scaleDistribution": {
+              "type": "linear",
+              "log": 2
+            },
+            "hideFrom": {
+              "tooltip": false,
+              "viz": false,
+              "legend": false
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            },
+            "axisSoftMin": null,
+            "axisSoftMax": null
+          },
+          "mappings": [],
+          "min": null,
+          "max": null,
+          "decimals": null,
+          "unit": ""
+        },
+        "overrides": []
+      },
+      "height": null,
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 14
+      },
+      "hideTimeOverride": false,
+      "id": 5,
+      "interval": null,
+      "links": [],
+      "maxDataPoints": 100,
+      "minSpan": null,
+      "repeat": null,
+      "repeatDirection": null,
+      "maxPerRow": null,
+      "span": null,
+      "targets": [
+        {
+          "expr": "Global.fProductionRate",
+          "query": "Global.fProductionRate",
+          "target": "",
+          "format": "time_series",
+          "hide": false,
+          "interval": "",
+          "intervalFactor": 2,
+          "legendFormat": "",
+          "metric": "",
+          "refId": "",
+          "step": 10,
+          "instant": false,
+          "datasource": null
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Current Production Rate",
+      "transparent": false,
+      "transformations": [],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "calcs": []
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "type": "timeseries"
+    }
+  ],
+  "refresh": "5s",
+  "rows": [],
+  "schemaVersion": 12,
+  "sharedCrosshair": false,
+  "style": "dark",
+  "tags": [
+    "ai-generated",
+    "industrial",
+    "testing_machine"
+  ],
+  "templating": {
+    "list": []
+  },
+  "title": "AI-Generated Dashboard - Testing_Machine",
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ],
+    "nowDelay": null,
+    "hidden": false
+  },
+  "timezone": "browser",
+  "version": 0,
+  "uid": null
+}
