@@ -35,7 +35,7 @@ Then open http://localhost:5000 in your browser.
 .venv\Scripts\python.exe ollama_host.py
 ```
 
-**Default**: LIVE mode (connects to real PLC at `199.4.42.250`)
+**Default**: LIVE mode. Configure the PLC address for your own lab environment; public examples should not contain production or customer network details.
 
 To use MOCK mode instead, edit `ollama_host.py` and change:
 ```python
@@ -46,7 +46,7 @@ server_env["PLC_MODE"] = "LIVE"  # Change to "MOCK"
 
 ```
 Core/
-├── web_dashboard_server.py  # Web dashboard server (NEW!)
+├── web_dashboard_server.py  # Web dashboard server
 ├── static/                   # Web dashboard frontend
 │   ├── index.html           # Main page
 │   ├── styles.css           # Styling
@@ -54,7 +54,7 @@ Core/
 ├── server.py                # MCP server with PLC tools
 ├── ollama_host.py           # Local AI chat interface
 ├── ai_dashboard_generator.py # AI-powered dashboard generator
-├── dashboard_generator.py   # Template-based dashboard generator
+├── dashboard_generator.py   # Template-based dashboard creation
 ├── drivers/
 │   ├── beckhoff.py         # TwinCAT ADS driver
 │   └── mock.py             # Simulated PLC driver
@@ -63,12 +63,11 @@ Core/
 ├── tests/
 │   └── test_plc_connection.py  # Connection verification
 └── dashboards/              # Generated dashboard JSONs
-
 ```
 
 ## Available Interfaces
 
-### 1. Web Dashboard (Recommended)
+### 1. Web Dashboard
 Modern web interface with conversational AI:
 - **URL**: http://localhost:5000
 - **Features**: Live metrics, chat interface, auto-refresh
@@ -128,7 +127,7 @@ Edit `plc_settings/Testing_Machine.json` to configure:
 ## Technology Stack
 
 - **Backend**: Flask + Flask-SocketIO for real-time communication
-- **Frontend**: HTML5 + CSS3 + Vanilla JavaScript (no frameworks)
+- **Frontend**: HTML5 + CSS3 + Vanilla JavaScript
 - **PLC Communication**: pyads for TwinCAT ADS protocol
 - **AI**: DeepSeek via Ollama for intelligent analysis
 - **Dashboard Generation**: Grafanalib for programmatic dashboard creation
